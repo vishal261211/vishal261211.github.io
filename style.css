@@ -1,0 +1,709 @@
+body {
+    margin-top: 56px;
+    font-size: 16x;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* BLOCKS */
+
+#blocks h1 {
+    position: relative;
+    left: 40%;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 100px;
+    border: 3px solid #21ddfb;
+    width: 200px;
+}
+
+.rounded {
+    width: 200px;
+    height: 150px;
+}
+
+.btn-info {
+    background-color: #21ddfb;
+    padding: 1rem 4rem;
+    border: 3px solid #21ddfb;
+    width: 225px;
+}
+
+.btn-info:hover {
+    background-color: transparent;
+    border: 3px solid #21ddfb;
+    color: #21ddfb;
+}
+
+.btn-info:active {
+    background-color: transparent !important;
+    border: 3px solid #21ddfb !important;
+    color: #21ddfb !important;
+}
+
+#blocks {
+    padding: 100px 50px;
+    background: url("../img/milestones_background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-h1 {
+    background: #ff0;
+    color: #000;
+}
+
+.main-h2 {
+    background: #ff0;
+    color: #000;
+    font-size: 1.3em;
+}
+
+.main-h3 {
+    background: #ff0;
+    color: #000;
+    font-size: 1.3em;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    color: #56f50c !important;
+    font-weight: bold;
+    animation-name: kc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kc {
+    0% {
+        color: #f00;
+    }
+    33.3% {
+        color: #ff0;
+    }
+    66.6% {
+        color: #0f0;
+    }
+    100% {
+        color: #f00;
+    }
+}
+
+.navbar-nav>li {
+    padding: 5px 30px;
+}
+
+.carousel-caption h2 {
+    font-size: 3em;
+}
+
+.carousel-caption {
+    padding-bottom: 230px;
+    line-height: 5;
+}
+
+#showcase h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#showcase {
+    margin-top: 50px;
+}
+
+#showcase .showcase-left img {
+    transition: 0.5s;
+}
+
+#showcase .showcase-left:hover img {
+    opacity: 1;
+    transform: translateY(-20px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+#showcase .showcase-right {
+    margin-top: 40px;
+}
+
+#showcase .showcase-btn {
+    border: none;
+    outline: none;
+}
+
+#showcase .showcase-btn:hover {
+    background: #56f50c;
+    color: #fff;
+    box-shadow: 0 0 15px #000;
+}
+
+#testimonial {
+    background: #9e9d9d;
+    padding: 50px 0px 30px 0px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#testimonial p {
+    font-size: 50px;
+    font-family: 'Josefin Sans';
+    color: #000;
+}
+
+#testimonial p.student {
+    font-size: 30px;
+    color: #666;
+}
+
+#campus-info .container {
+    padding: 0px 20px;
+    margin-bottom: 60px;
+}
+
+#campus-info h2 {
+    font-size: 40px;
+}
+
+#campus-info .container img {
+    transition: 0.5s;
+}
+
+#campus-info .container img:hover {
+    box-shadow: 0 15px 20px #000;
+    transform: translateY(-15px);
+}
+
+#campus-info .container h2 {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+/*
+.jumbotron {
+    margin-top: 20px;
+    background-image: url("../img/news_background.jpg");
+    background-size: cover;
+    color: #fff;
+}
+*/
+
+#info1 .color {
+    background: linear-gradient(0deg, #000, #26262626);
+}
+
+#info1 .color:before {
+    content: '';
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    width: calc(100%+4px);
+    height: calc(100%+4px);
+}
+
+#info1 {
+    margin-top: 50px;
+}
+
+#info1 .info-right {
+    margin-top: 50px;
+}
+
+#info1 .info-right-btn {
+    border: 1px solid #56f50c;
+}
+
+#info1 .info-right-btn:hover {
+    background: #56f50c;
+    color: #fff;
+}
+
+#info2 {
+    margin: 20px 0 60px 0;
+}
+
+
+/* STUDENTS REVIEW */
+
+#students-review {
+    background: #2b2b2b;
+    height: 70vh;
+    padding: 60px;
+}
+
+#students-review .carousel-inner {
+    min-height: 300px;
+}
+
+#students-review img {
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+/* CLOSE */
+
+
+/* YEARLY EVENTS */
+
+#events {
+    height: 100vh;
+    background: url("../img/davide-ragusa-2238-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#events .left-box {
+    margin-top: 16%;
+    box-sizing: border-box;
+}
+
+#events .left-box .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: 0.5s;
+}
+
+#events .left-box .content:hover {
+    background: #e91e63;
+}
+
+.events {
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    margin-top: 16%;
+    transition: 0.5s;
+}
+
+.events .list {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.events .list li {
+    list-style-type: square;
+}
+
+.events:hover {
+    background: #e91e63;
+}
+
+.btn-details {
+    margin-top: 7%;
+    margin-left: 40%;
+    background-color: #e91e63;
+    padding: 1rem 2rem;
+    border: 3px solid #e91e63;
+    width: 225px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-details:hover {
+    background-color: transparent;
+    border: 3px solid #e91e63;
+    color: #fff;
+}
+
+
+/* CLOSE */
+
+#contact {
+    background: url("../img/milestones_background.jpg") no-repeat;
+    padding: 40px;
+    color: #fff;
+    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;
+}
+
+.btn-submit {
+    width: 130px;
+    color: #fff;
+    padding: 1rem 1rem;
+    outline: none;
+}
+
+footer {
+    padding: 30px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:1100px) {
+    .carousel-caption {
+        padding-bottom: 250px;
+    }
+    .carousel-caption h2 {
+        font-size: 30px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1000px) {
+    .carousel-caption {
+        padding-bottom: 200px;
+        line-height: 3;
+    }
+    .carousel-caption h2 {
+        font-size: 25px;
+    }
+    .carousel-caption p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:966px) {
+    .carousel-caption {
+        padding-bottom: 170px;
+        line-height: 2;
+    }
+    .carousel-caption h2 {
+        font-size: 22px;
+    }
+    .carousel-caption p {
+        font-size: 16px;
+    }
+    .content-box h2 {
+        font-size: 18px;
+    }
+    .content-box p {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    .rounded {
+        width: 120px;
+        height: 80px;
+    }
+}
+
+@media(max-width:840px) {
+    .navbar-nav>li {
+        padding: 3px 20px;
+    }
+    .content-box h2 {
+        font-size: 18px;
+    }
+    .content-box p {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    #students-review {
+        padding: 40px;
+    }
+}
+
+@media(max-width:798px) {
+    .carousel-caption {
+        padding-bottom: 150px;
+        line-height: 2;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+    }
+    .rounded {
+        width: 100px;
+        height: 90px;
+    }
+    .content-box h2 {
+        padding: 0;
+        font-size: 20px;
+    }
+    .content-box p {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:752px) {
+    .right-contact {
+        padding: 0;
+        margin-left: 25px;
+        line-height: 1;
+    }
+    .carousel-caption {
+        padding-bottom: 130px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    #blocks h1 {
+        font-size: 30px;
+        margin-left: 0%;
+    }
+}
+
+@media(max-width:749px) {
+    .form-group {
+        padding: 0;
+        margin-right: 10px;
+    }
+    .btn-info {
+        padding: .5rem 2rem;
+        line-height: 2;
+    }
+    #blocks {
+        padding: 50px 25px;
+    }
+    #blocks h1 {
+        left: 25%;
+    }
+    .content-box p {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+    .rounded {
+        width: 110px;
+        height: 70px;
+    }
+    #events .left-box {
+        margin-top: 11%;
+    }
+    #events .left-box h1 {
+        font-size: 20px;
+    }
+    #events .left-box .content {
+        padding: 20px;
+    }
+    .events {
+        margin-top: 11%;
+    }
+    .events .list {
+        font-size: 15px;
+    }
+    .btn-details {
+        margin-top: 5%;
+        padding: 0.5rem 1rem;
+        width: 190px;
+    }
+}
+
+@media(max-width:600px) {
+    #showcase h1 {
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+    .carousel-caption {
+        padding-bottom: 100px;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+    .content-box p {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:560px) {
+    #students-review {
+        padding: 20px;
+    }
+}
+
+@media(max-width:532px) {
+    #info2 {
+        margin: 0;
+    }
+    #info2 h2 {
+        font-size: 18px;
+    }
+    #info2 p {
+        font-size: 15px;
+    }
+    #blocks {
+        padding: 25px 15px;
+    }
+    .btn-info {
+        padding: 5px 5px;
+        width: 200px;
+    }
+    #blocks h1 {
+        width: 160px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width:520px) {
+    .right-contact {
+        font-size: 15px;
+    }
+    .carousel-caption {
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .carousel-caption h2 {
+        font-size: 16px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+    }
+    #blocks {
+        padding: 20px 10px;
+    }
+    .btn-info {
+        width: 150px;
+        font-size: 15px;
+        line-height: 3;
+    }
+    #blocks h1 {
+        width: 140px;
+        font-size: 25px;
+        left: 25%;
+    }
+    .btn-details {
+        margin-top: 5%;
+        padding: 0.5rem 1rem;
+        width: 190px;
+        margin-left: 20%;
+    }
+}
+
+@media(max-width:461px) {
+    #students-review {
+        padding: 15px;
+    }
+    #students-review h2 {
+        font-size: 20px;
+    }
+    #students-review p {
+        font-size: 18px;
+    }
+    #students-review h4 {
+        font-size: 15px;
+    }
+    #students-review h3 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:409px) {
+    .carousel-caption {
+        padding-bottom: 50px;
+    }
+    .carousel-caption h2 {
+        font-size: 14px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+    #campus-info h2 {
+        font-size: 18px;
+    }
+    .rounded {
+        width: 80px;
+        height: 70px;
+    }
+    .content-box h2 {
+        font-size: 13px;
+    }
+    .content-box {
+        width: 200px;
+        left: 0;
+    }
+    #blocks h1 {
+        width: 160px;
+        font-size: 25px;
+        left: 10%;
+    }
+}
+
+@media(max-width:360px) {
+    .carousel-caption {
+        padding-bottom: 30px;
+    }
+    .carousel-caption h2 {
+        font-size: 12px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    #blocks h1 {
+        width: 160px;
+        font-size: 25px;
+        left: 10%;
+    }
+}
+
+@media(max-width:353px) {
+    #blocks h1 {
+        width: 160px;
+        left: 5%;
+    }
+}
+
+@media(max-width:340px) {
+    .carousel-caption {
+        padding-bottom: 20px;
+    }
+    .carousel-caption h2 {
+        font-size: 12px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    .content-box {
+        width: 200px;
+        left: 0;
+        margin-right: 30px;
+    }
+    #blocks h1 {
+        width: 160px;
+        font-size: 25px;
+        left: 8%;
+    }
+    #students-review h4 {
+        font-size: 10px;
+    }
+    #students-review p {
+        font-size: 13px;
+    }
+    #students-review h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:300px) {
+    .content-box {
+        width: 170px;
+        margin-right: 30px;
+    }
+    #blocks h1 {
+        width: 160px;
+        font-size: 25px;
+        left: 1%;
+    }
+}
